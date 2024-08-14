@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 110px 20px 0 20px;
+}
+
+.header__image {
+  max-width: 50px;
+}
+
+.header__icon {
+  max-width: 20px;
+}
+
+.header__icons {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
