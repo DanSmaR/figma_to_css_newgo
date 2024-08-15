@@ -1,7 +1,6 @@
 .header {
   display: flex;
   align-items: center;
-  margin: 110px 20px 0 20px;
 }
 
 .header__image {
@@ -16,4 +15,32 @@
   display: flex;
   gap: 20px;
   margin-left: auto;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.greeting--small {
+  font-size: 14px;
+}
+
+.greeting--large {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.page__header {
+  margin-top: 110px;
+}
+
+.page__greeting {
+  margin-top: 35px;
+}
+
+.u-page-margins {
+  margin-left: 20px;
+  margin-right: 20px;
 }

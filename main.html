@@ -7,13 +7,23 @@
   <link rel="stylesheet" href="./styles/main.css">
   <title>NewGo - Prática de CSS</title>
 </head>
-<body>
-  <header class="header">
+
+<body class="page">
+  <header class="page__header header u-page-margins">
     <img class="header__image" src="./images/loading.svg" alt="3d circle icon">
     <div class="header__icons">
       <img src="./images/calend-icon.svg" alt="calendary" class="header__icon">
       <img src="./images/bell-notification-icon.svg" alt="bell notification" class="header__icon">
     </div>
   </header>
+
+  <main class="main">
+    <section class="page__greeting u-page-margins">
+      <p class="greeting">
+        <span class="greeting--small">Bom dia,</span><br>
+        <span class="greeting--large">Danilo, veja suas postagens!</span>
+      </p>
+    </section>
+  </main>
 </body>
 </html>
