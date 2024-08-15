@@ -54,7 +54,7 @@
 }
 
 .page__posts {
-  margin-top: 4 0px;
+  margin-top: 40px;
 }
 
 .post {
@@ -63,7 +63,7 @@
   flex-direction: column;
   row-gap: 30px;
   width: 200px;
-  height: 250px;
+  height: 215px;
 }
 
 .post__body {
@@ -80,6 +80,15 @@
   font-size: 0.6rem;
 }
 
+.post__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.post__link:hover {
+  text-decoration: none;
+}
 .u-page-margins {
   margin-left: 20px;
   margin-right: 20px;
