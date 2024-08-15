@@ -45,8 +45,20 @@
   font-weight: bold;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .page__header {
-  margin-top: 110px;
+  margin-top: 70px;
 }
 
 .page__greeting {
@@ -89,6 +101,47 @@
 .post__link:hover {
   text-decoration: none;
 }
+
+/* Footer */
+
+.page__footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer__icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #F5F1F7;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.footer__title {
+  align-self: self-start;
+  padding-left: 20px;
+}
+
+.liner {
+  background-color: #F5F1F7;
+  border-radius: 16px 16px 0 0;
+  padding: 8px 0;
+  width: 95%;
+}
+
+/* Utilities */
 .u-page-margins {
   margin-left: 20px;
   margin-right: 20px;
