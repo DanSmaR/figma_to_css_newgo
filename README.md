@@ -8,4 +8,5 @@
 - CSS3
 
 ### Mobile Page
-![image](https://github.com/user-attachments/assets/86ade759-8225-4472-9601-33e81a9f1ff8)
+![image](https://github.com/user-attachments/assets/982bbc04-4022-48dd-ba13-c42de01357e0)
+
