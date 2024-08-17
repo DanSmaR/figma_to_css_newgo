@@ -8,8 +8,8 @@
   <title>NewGo - Prática de CSS</title>
 </head>
 
-<body class="page">
-  <header class="page__header header u-page-margins">
+<body class="page u-page-margins">
+  <header class="header">
     <img class="header__image" src="./images/loading.svg" alt="3d circle icon">
     <div class="header__icons">
       <a href="#"><img src="./images/calend-icon.svg" alt="calendary" class="header__icon"></a>
@@ -18,10 +18,12 @@
   </header>
 
   <main class="main">
-    <p class="page__greeting u-page-margins greeting greeting--small">Bom dia,</p>
+    <p class="greeting--small">
+      Bom dia,
+    </p>
 
-    <section class="page__posts u-page-margins">
-      <h2 class="greeting greeting--large">Danilo, veja suas postagens!</h2>
+    <section class="page__posts">
+      <h2 class="posts_title--large">Danilo, veja suas postagens!</h2>
       <article class="carousel">
         <section class="post carousel__slide">
           <a href="#" class="post__link">
