@@ -40,7 +40,7 @@
 }
 
 .page__main-content > :last-child {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .page {
@@ -60,7 +60,7 @@
 }
 
 .page__cards-title {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -119,27 +119,27 @@
 .page__footer {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 .footer__icons {
   display: flex;
-  gap: 20px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 0;
   width: 100%;
 }
 
 .footer__icon {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
+  display: flex;
+  width: 12%;
   background-color: #F5F1F7;
   border-radius: 5px;
   padding: 6px;
+}
+
+.footer__link {
+  width: 100%;
+	display: flex;
+	align-content: center;
 }
 
 .footer__title {
