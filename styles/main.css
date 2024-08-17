@@ -34,11 +34,6 @@
   font-size: 0.8em;
 }
 
-.greeting--large {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
 .page__main-content {
   overflow-y: scroll;
   padding-top: 10%;
@@ -62,6 +57,11 @@
   display: flex;
   flex-direction: column;
   row-gap: 1.4em;
+}
+
+.page__cards-title {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .card {
